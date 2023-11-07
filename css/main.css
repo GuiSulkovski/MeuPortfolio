@@ -174,7 +174,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu .active i, 
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-    text-decoration: none;
     color: rgb(137, 174, 223);
 }
 
@@ -188,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
     transition: all 0.4s;
     outline: none;
-    background-color: antiquewhite;
+    background: antiquewhite;
     color: #2eafec;
     width: 40px;
     height: 40px;
