@@ -288,7 +288,7 @@ section{
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #202747;
+    color: #c59f08; /* Cor dos subtitulos */
 }
 
 .section-title h2:after {
@@ -393,17 +393,17 @@ section{
     text-transform: uppercase;
     display: block;
     font-weight: 600;
-    color: antiquewhite;
+    color: rgb(5, 5, 5);
 }
 
 .skills .progress .skill .val {
     float: right;
     font-style: italic;
-    color: #de18c7;
+    color: #070707;
 }
 
 .skills .progress-bar-wrap {
-    background-color: rgb(232, 208, 158);
+    background-color: rgb(232, 166, 166);
     height: 10px;
 }
 
@@ -411,7 +411,7 @@ section{
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: rgb(220, 74, 74);
+    background-color: rgb(151, 9, 9);
 }
 
 /* Resumo */
@@ -420,7 +420,7 @@ section{
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #c214dd;
+    color: #bd9609;
 }
 
 .resume .resume-item {
@@ -436,13 +436,13 @@ section{
     font-weight: 600;
     text-transform: uppercase;
     font-family: "poppins", sans-serif;
-    color: #de18c7;
+    color: #f9f9f9;
     margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
     font-size: 16px;
-    background-color: rgb(36, 219, 23);
+    background-color: rgb(127, 132, 127);
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -551,7 +551,99 @@ section{
     opacity: 1;
     bottom: 0;
   }
-  .portfolio-wrap .img-fluid {
-    width: 500px;
-    height: ;
+
+  /* Formulário */
+  .contatc {
+    padding-bottom: 130px;
   }
+
+  .contact .color {
+    color: #000000;
+  }
+
+  .contact .info {
+    padding: 30px;
+    background-color: #273b59;
+    width: 100%;
+    box-shadow: 0 0 24px rgba(20, 157, 221, 0.75);
+  }
+
+  .contact .info i {
+    font-size: 20px;
+    color: #f5f8fd;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background-color: #f0c106;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fbf9f9;
+}
+
+.contact .info .email p {
+    padding-top: 5px;
+}
+
+.contact .info .address:hover i, 
+.contact .info .email:hover i, 
+.contact .info .phone:hover i {
+    background-color: #f5f8fd;
+    color: #f0c106;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    padding: 30px;
+    background: #273b59;
+    box-shadow: 0 0 24px rgba(20, 157, 221, 0.75);
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form label {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .php-email-form input {
+    height: 44px;
+}
+.contact .php-email-form textarea {
+    padding: 10px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+    background: #f9fbfc;
+    border: 0;
+    padding: 10px 24px;
+    color: #080808; /* ===== cor do botao enviar ===== */
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    background: #1c5ce6;
+    color: whitesmoke;
+}
