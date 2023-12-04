@@ -57,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     width: 300px;
     transition: all ease-in-out 0.5s;
+    z-index: 9997;
     padding: 0 15px;
     background: antiquewhite;
     overflow-y: auto;
@@ -97,6 +98,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 36px;
     transition: 0.3s;
 }
+
+#header .profile .social-links:hover a{
+    background-color: #208fe9;
+    color: #000000;
+}
+
 /* fim header */ 
 
 #main {
@@ -130,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 
 .nav-menu {
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .nav-menu * {
@@ -151,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #202747;
     padding: 12px 15px;
     margin-bottom: 8px;
-    transition: 0.3s;
+    transition: 0.4s;
     font-size: 15px;
 }
 
@@ -212,18 +219,18 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero.jpg") top center;
+    background: url("../img/fundo3.png") top center;
     background-size: cover;
 }
 
 #hero:before {
     content: "";
-    background: rgba(39, 39, 39, 0.3);
+    background: rgba(119, 119, 119, 0.3);
     position: absolute;
-    top: 0;
-    right: 0;
     bottom: 0;
+    top: 0;
     left: 0;
+    right: 0;
     z-index: 1;
 }
 
@@ -426,7 +433,7 @@ section{
 .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #30cdd8;
+    border-left: 2px solid antiquewhite;
     position: relative;
 }
 
@@ -436,13 +443,14 @@ section{
     font-weight: 600;
     text-transform: uppercase;
     font-family: "poppins", sans-serif;
-    color: #f9f9f9;
+    color: antiquewhite;
     margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
     font-size: 16px;
-    background-color: rgb(127, 132, 127);
+    background-color:antiquewhite;
+    color: #202747;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -465,8 +473,8 @@ section{
     border-radius: 50px;
     left: -9px;
     top: 0;
-    background-color: rgb(223, 37, 24);
-    border: 2px solid #19e3d2;
+    background-color: #bd9609;
+    border: 2px solid #fbfdfd;
 }
 
 /* Portfolio === Filtro  */
